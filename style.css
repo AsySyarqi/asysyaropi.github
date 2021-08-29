@@ -1,0 +1,309 @@
+html {
+  position: relative;
+}
+
+body {
+  margin-bottom: 120px;
+}
+
+.navbar {
+  position: relative;
+  z-index: 1;
+}
+
+.navbar-brand {
+  font-family: viga;
+  font-size: 20px;
+  margin-left: 10px;
+}
+
+/* Jumbotron */
+.jumbotron {
+  background-image: url(img/ketua.png);
+  background-position: top right;
+  background-size: 50vmax;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  margin-top: 60px;
+}
+
+.jumbotron .container {
+  z-index: 1;
+  position: relative;
+}
+
+
+.jumbotron .display-4 {
+  color: white;
+  text-align: center;
+  font-weight: 200;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
+  font-size: 40px;
+}
+
+.jumbotron .display-4 span {
+  font-weight: 500;
+}
+
+
+.isi h1 {
+  margin-left: 10px;
+  margin-top: 30px;
+  color: #0B63DC;
+  font-weight: 700;
+  font-family: 'Lobster', cursive;
+  position: relative;
+  line-height: 1;
+}
+
+.isi span {
+  margin-left: 10px;
+  color: rgb(0, 0, 0);
+  font-weight: 400;
+  line-height: 1;
+}
+
+.isi h2 {
+  margin-top: -8px;
+  margin-left: 10px;
+  color: #0B63DC;
+  font-weight: 700;
+  font-family: 'viga';
+  position: relative;
+}
+.isi h3 {
+  margin-top: 6px;
+  margin-left: 10px;
+  color: #ff9900;
+  font-weight: 700;
+  font-family: 'viga';
+  position: relative;
+  font-size: 18px;
+}
+
+.isi p {
+  margin-left: 10px;
+  color: rgb(0, 0, 0);
+  font-weight: 400;
+  font-size: 11px;
+}
+
+
+.berita {
+  margin-top: 120px;
+  text-align: center;
+}
+
+.berita img {
+  margin-top: 20px;
+}
+
+.berita h3 {
+  font-size: 32px;
+  font-weight: 200;
+  text-transform: uppercase;
+  margin-top: 30px;
+}
+
+.berita p {
+  font-size: 22px;
+  color: #acacac;
+  font-weight: 200;
+  margin: 30px 0;
+}
+
+.batas h3 {
+  margin-top: 100px;
+  padding-bottom: 5px;
+}
+
+.struktur img {
+  background-size: cover;
+  width: 100%;
+}
+
+@media screen and (min-width: 450px) {
+  
+}
+
+
+
+
+
+/* Desktop version */
+@media (min-width: 922px) {
+
+  .navbar-brand,
+    .nav-link {
+        color: rgb(255, 255, 255) !important;
+    }
+
+    .nav-link {
+        text-transform: uppercase;
+        margin-right: 20px;
+    }
+
+
+    .nav-link:hover::after {
+        content: '';
+        display: block;
+        border-bottom: 3px solid #0B63DC;
+        width: 50%;
+        margin: auto;
+        padding-bottom: 5px;
+        margin-bottom: -8px;
+    }
+
+    .jumbotron {
+      margin-top: 40px;
+      background-position: top right;
+      background-size: 80vmax;
+      position: absolute;
+      background-repeat: no-repeat;
+      top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+    }
+
+    .jumbotron .display-4 {
+        font-size: 62px;
+    }
+
+    .isi h1 {
+      margin-left: 50px;
+      margin-top: 100px;
+      color: #0B63DC;
+      font-weight: 700;
+      font-family: 'Lobster', cursive;
+      position: relative;
+    }
+
+    .isi span {
+      margin-left: 50px;
+      color: rgb(0, 0, 0);
+      font-weight: 500;
+    }
+
+    .isi h2 {
+      margin-left: 50px;
+      color: #0B63DC;
+      font-weight: 700;
+      font-family: 'viga';
+      position: relative;
+    }
+    .isi h3 {
+      margin-left: 50px;
+      color: #ff9900;
+      font-weight: 700;
+      font-family: 'viga';
+      position: relative;
+      font-size: 25px;
+    }
+
+    .isi p {
+      margin-left: 50px;
+      color: rgb(0, 0, 0);
+      font-weight: 500;
+      font-size: 20px;
+    }
+
+    .kegiatan h1 {
+      text-align: center;
+      margin-top: -50px;
+      color: #0B63DC;
+      font-weight: 700;
+    }
+
+    .kegiatan hr {
+      margin-top: -10px;
+      background-color: black;
+      margin-left: 580px;
+      height: 5px;
+      width: 190px;
+      align-content: center;
+      text-align: center;
+      text-decoration: none;
+    }
+
+    .batas  {
+
+      margin-bottom:20px;
+    }
+
+    /* .carousel-inner {
+      margin-left: 700px;
+      margin-top: 20px;
+      margin-bottom: 10px;
+      width: 500px;
+    } */
+
+    .berita {
+      text-align: left;
+  }
+
+  .berita img {
+      width: 100%;
+      height: 90%;
+      margin-top: 10px;
+  }
+
+  .struktur img {
+    background-size: cover;
+    position: relative;
+    height: 90%;
+    width: 80%;
+    margin-top: -50px;
+  }
+
+  .struktur h3 {
+    margin-top: 30px;
+  }
+
+ .struktur hr {
+   display: block;
+   margin: auto;
+   width: 380px;
+   height: 5px;
+   margin-bottom: 25px;
+ }
+}
+
+.kontak hr {
+  display: block;
+   margin: auto;
+   width: 110px;
+   height: 5px;
+   margin-bottom: 25px;
+}
+
+.kontak {
+  min-height: 600px;
+}
+
+ footer {
+   position: absolute;
+   bottom: 0;
+   width: 100%;
+   height: 120px;
+   background-color: #333; 
+   padding-top: 30px;
+  }
+
+  footer p {
+    color: #aaa;
+    font-size: 0.9em;
+  }
+
+  .carousel-inner img {
+    background-size: cover;
+    width: 100%;
+    height: 760px;
+    margin-top: -100px;
+    position: fixed;
+  }
+
